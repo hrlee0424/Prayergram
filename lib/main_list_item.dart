@@ -67,17 +67,11 @@ class _MainListItemState extends State<MainListItem> {
                       )
                     ],
                   ))
-              // text.length > 30
-              //     ? MaterialButton(
-              //         onPressed: () {},
-              //         child: Text('더보기'),
-              //       )
-              //     : SizedBox()
             ],
           ),
           Row(
             children: [
-              IconButton(onPressed: () {}, icon: Icon(Icons.add_box_outlined))
+              IconButton(onPressed: () {}, icon: const Icon(Icons.add_box_outlined))
             ],
           )
         ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:prayer/screen/edit_screen.dart';
 
-import 'edit_screen.dart';
-import 'main_screen.dart';
+import 'screen/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
